@@ -2,7 +2,7 @@ import plotly.graph_objects as go
 
 def plot(ene,ene_sm,diff,title):
 	layout = go.Layout(
-		title='abc',
+		title=title,
 		paper_bgcolor='rgba(0,0,0,0)',
 		plot_bgcolor='rgba(0,0,0,0)',
 		xaxis=dict(showgrid=True, gridwidth=1, gridcolor='LightPink',title='n'),
